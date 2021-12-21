@@ -1,0 +1,25 @@
+{
+  "name": "learnwebgl",
+  "version": "1.0.0",
+  "description": "learn webgl",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "webpack-dev-server -c ./Config/webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webgl",
+    "typescript"
+  ],
+  "author": "1346084484@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "ts-shader-loader": "^1.0.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

@@ -1,0 +1,36 @@
+<!--
+ * @date: 2021-12-19 11:33:07
+ * @LastAuthor: 唐建军
+ * @lastTime: 2021-12-19 19:39:05
+ * @FilePath: \LearnWebGL-TypeScript\Examples\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/Rubidium.js"></script>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+        }
+        .map{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map" class="map"></div>
+    <script>
+        var Rubidium;
+        window.addEventListener('load',function(event){
+            Rubidium = new Rubidium.Scene('map');
+        })
+    </script>
+</body>
+</html>

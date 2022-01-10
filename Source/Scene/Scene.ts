@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 
 /*
  * @date: 2021-12-19 11:35:17
  * @LastAuthor: 唐建军
  * @lastTime: 2021-12-29 17:37:40
  * @FilePath: \Rudium\Source\Scene\Scene.ts
+=======
+/*
+ * @date: 2021-12-19 11:35:17
+ * @LastAuthor: 唐建军
+ * @lastTime: 2021-12-20 22:01:37
+ * @FilePath: \LearnWebGL-TypeScript\Source\scene\Scene.ts
+>>>>>>> c0c492e1e3af9de1f9ca6c52f1a292bfc8db54df
  */
 declare interface IOptions {
     [key: string]: any
@@ -44,7 +52,10 @@ export class Scene {
         this.context.clearColor(0.0, 0.0, 0.0, 1.0);
         this.context.enable(this.context.DEPTH_TEST);
         this.context.clear(this.context.COLOR_BUFFER_BIT | this.context.DEPTH_BUFFER_BIT);
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> c0c492e1e3af9de1f9ca6c52f1a292bfc8db54df
     }
 }
